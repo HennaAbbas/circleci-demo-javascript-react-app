@@ -8,6 +8,7 @@ workflows:
     jobs:
       - node/test:
           version: 13.11.0
+          app-dir: ~/project
       - node/test:
           version: 12.16.0
       - node/test:
